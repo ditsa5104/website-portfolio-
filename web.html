@@ -357,6 +357,44 @@ transition: all 0.3s ease;
 .submit-btn:hover {
 background-color: white;
 }
+  .email-contact {
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    text-align: center;
+  }
+  
+  .email-button {
+    display: inline-block;
+    margin: 1.5rem 0;
+    padding: 0.75rem 1.5rem;
+    background-color: #e0b0ff;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .email-button:hover {
+    background-color: white;
+    transform: translateY(-3px);
+  }
+  
+  .contact-info {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .contact-info p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
 @keyframes fadeIn {
  from {
 opacity: 0;
@@ -396,6 +434,12 @@ left: 15px;
 .right {
 left: 0%;
 }
+.contact-info {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+    }
  }
 </style>
 </head>
@@ -472,28 +516,30 @@ left: 0%;
 <div class="roadmap">
   <div class="roadmap-stop left">
     <div class="roadmap-content">
-      <h3>UX Designer @ TechCorp</h3>
-      <h4>2021-2022</h4>
-      <p>Led user research and prototype development for mobile applications, resulting in 35% improvement in user satisfaction.</p>
+      <h3>Corporate Associate @ Team Rudra</h3>
+      <h4>Sepember 2024-Present</h4>
+      <p>Oversee finances, sponsorships, social media, project workflows, documentation, presentations, and international representation.</p>
     </div>
   </div>
   <div class="roadmap-stop right">
     <div class="roadmap-content">
-      <h3>Product Manager @ InnovateCo</h3>
-      <h4>2022-2023</h4>
-      <p>Managed cross-functional teams to deliver three major product releases ahead of schedule, generating $1.2M in new revenue.</p>
-    </div>
+      <h3>Social Media Manager @ Bloombyond</h3>
+      <h4>March 2024-October 2024</h4>
+      <p>Managed social media strategy and campaigns, crafted LinkedIn articles on mental health, psychology, and better living, and fostered engagement and discussions.</p>
+  </div>
   </div>
   <div class="roadmap-stop left">
     <div class="roadmap-content">
-      <h3>Senior UX Designer & Developer @ FutureTech</h3>
+      <h3>Freelance Designer</h3>
       <h4>2023-Present</h4>
-      <p>Currently leading design and development for AI-driven solutions, focusing on creating accessible and intuitive interfaces.</p>
+      <p>Worked with various startups to design logos, standees, content, invitations, and hoardings, on design and content.</p>
     </div>
   </div>
 </div>
 </div>
 </section>
+</section id="skills" class="skills">
+<div class="container">
 <h3 style="margin-top: 3rem; text-align: center;">Technologies I Work With</h3>
 <div class="tech-icons">
   <a href="#" class="icon-circle">
@@ -509,13 +555,13 @@ left: 0%;
     <i class="fab fa-python"></i>
   </a>
   <a href="#" class="icon-circle">
-    <i class="fa-solid fa-cube"></i> <!-- Blender icon -->
+    <i class="fa-solid fa-cube"></i> 
   </a>
   <a href="#" class="icon-circle">
     <i class="fab fa-wix"></i>
   </a>
   <a href="#" class="icon-circle">
-    <i class="fa-solid fa-code"></i> <!-- Cpp icon -->
+    <i class="fa-solid fa-code"></i> 
   </a>
 </div>
 </div>
@@ -553,6 +599,14 @@ left: 0%;
 </div>
 </div>
 </section>
+<div class="email-contact">
+    <h3>Or reach out directly</h3>
+    <p>Don't want to fill out a form? You can email me directly:</p>
+    <a href="mailto:ditsasarkar5104@gmail.com" class="email-button">
+      <i class="far fa-envelope"></i> ditsasarkar5104@gmail.com
+    </a>
+    </div>
+  </div>
 
 <script>
 const sections = document.querySelectorAll('.section');
